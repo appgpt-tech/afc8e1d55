@@ -48,9 +48,9 @@ export const PlayersList = () => (
       <List actions={<ListActions  />} filters={ResourceFilters} >
         <DatagridConfigurable>
           <TextField source="Player_Name" />
-<TextField source="Wins" />
-<TextField source="Losses" />
-<TextField source="Draws" />
+<NumberField source="Wins" />
+<NumberField source="Losses" />
+<NumberField source="Draws" />
 <NumberField source="id" /><EditButton />
 
         </DatagridConfigurable>
@@ -61,9 +61,9 @@ export const PlayersEdit = () => (
                     <Edit title={<PlayersTitle />}>
                       <SimpleForm>
                           <TextInput source="Player_Name"   />
-<TextInput source="Wins"   />
-<TextInput source="Losses"   />
-<TextInput source="Draws"   />
+<NumberInput source="Wins"   />
+<NumberInput source="Losses"   />
+<NumberInput source="Draws"   />
 <NumberInput source="id"   disabled/>
                       </SimpleForm>
                     </Edit>
@@ -73,9 +73,9 @@ export const PlayersCreate = () => (
                                   <Create>
                                     <SimpleForm>
                                         <TextInput source="Player_Name"   />
-<TextInput source="Wins"   />
-<TextInput source="Losses"   />
-<TextInput source="Draws"   />
+<NumberInput source="Wins"   />
+<NumberInput source="Losses"   />
+<NumberInput source="Draws"   />
 <NumberInput source="id"   disabled/>
                                     </SimpleForm>
                                   </Create>
