@@ -50,7 +50,7 @@ export const AnimationsList = () => (
           <TextField source="Animation_ID" />
 <TextField source="Animation_Name" />
 <TextField source="Animation_Type" />
-<TextField source="Duration" />
+<NumberField source="Duration" />
 <NumberField source="id" /><EditButton />
 
         </DatagridConfigurable>
@@ -63,7 +63,7 @@ export const AnimationsEdit = () => (
                           <TextInput source="Animation_ID"   />
 <TextInput source="Animation_Name"   />
 <TextInput source="Animation_Type"   />
-<TextInput source="Duration"   />
+<NumberInput source="Duration"   />
 <NumberInput source="id"   disabled/>
                       </SimpleForm>
                     </Edit>
@@ -75,7 +75,7 @@ export const AnimationsCreate = () => (
                                         <TextInput source="Animation_ID"   />
 <TextInput source="Animation_Name"   />
 <TextInput source="Animation_Type"   />
-<TextInput source="Duration"   />
+<NumberInput source="Duration"   />
 <NumberInput source="id"   disabled/>
                                     </SimpleForm>
                                   </Create>
