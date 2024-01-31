@@ -13,11 +13,11 @@ import { GamesList, GamesCreate, GamesEdit} from "./resources/Games";
 import { AnimationsList, AnimationsCreate, AnimationsEdit} from "./resources/Animations";
 import { ColorsList, ColorsCreate, ColorsEdit} from "./resources/Colors";
 import { LightsList, LightsCreate, LightsEdit} from "./resources/Lights";
-import PlayersIcon from "@mui/icons-material/SportsEsports";
-import GamesIcon from "@mui/icons-material/Games";
+import PlayersIcon from "@mui/icons-material/People";
+import GamesIcon from "@mui/icons-material/SportsEsports";
 import AnimationsIcon from "@mui/icons-material/Animation";
-import ColorsIcon from "@mui/icons-material/ColorLens";
-import LightsIcon from "@mui/icons-material/LightMode"; 
+import ColorsIcon from "@mui/icons-material/Palette";
+import LightsIcon from "@mui/icons-material/WbIncandescent"; 
 // SUPERTOKENS
 import React from "react";
 import SuperTokens, {
